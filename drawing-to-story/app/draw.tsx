@@ -5,8 +5,8 @@ import DrawingCanvas, { DrawingCanvasRef } from '../components/DrawingCanvas';
 import axios from 'axios';
 
 const { width: screenWidth, height: screenHeight } = Dimensions.get('window');
-const HF_API_URL = "API_KEY_HERE";
-const HF_API_TOKEN = "TOKEN_HERE";
+const HF_API_URL = process.env.EXPO_PUBLIC_HF_API_URL || "";
+const HF_API_TOKEN = process.env.EXPO_PUBLIC_HF_API_TOKEN || "";
 
 export default function DrawScreen() {
   const { name } = useLocalSearchParams<{ name?: string }>();
