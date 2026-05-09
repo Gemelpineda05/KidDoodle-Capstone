@@ -11,7 +11,7 @@ KidDoodle is an AI-driven multimodal storytelling platform developed to address 
 - LLM-generated stories for non-tree/house drawings
 - Built-in NSFW detection and unsafe keyword filtering
 - Web UI built with Gradio, mounted alongside a Flask RESTful API
-- Audience targeting (Children/Teens)
+- Audience targeting (Children)
 - Health check endpoint for monitoring
 
 ## Tech Stack
