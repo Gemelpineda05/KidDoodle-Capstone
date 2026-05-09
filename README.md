@@ -1,7 +1,8 @@
-# Kidoodle: Tree & House Story Generator
+# Kidoodle: An AI-Driven Multimodal Platform Translating Children's Illustrative Expressions into Narrative Content for Creative and Inclusive Literacy Development
+
 
 ## About
-Kidoodle is a web application that generates kid-friendly stories from children's drawings. It is optimized for tree and house drawings, which pull from a pre-curated story dataset, while other drawings use an LLM to generate custom stories. The app includes safety filters to block NSFW content and inappropriate descriptions, making it safe for children.
+KidDoodle is an AI-driven multimodal storytelling platform developed to address the limited opportunities for creative expression and personalized literacy development in existing digital learning tools for young children
 
 ## Features
 - Automatic image description using CLIP Interrogator
